@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	/* @apply rounded-full; */
+}
+
+
+button {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.btn-primary.btn-outline {
+    color: #72AEDE !important;
+    background-color: #fff !important ;
+    border: 2px solid #72AEDE !important;
+}
+
+.btn-large {
+    font-size: 1.6rem !important;
+    letter-spacing: 0.4rem !important;
+    width: 500px !important;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5rem !important; */
+}
+
+button:disabled {
+    opacity: 0.3;
+    user-select: none;
+    pointer-events: none;
+}
+
+.btn-primary:active {
+    /* outline: 5px solid #f6cd62 !important; */
+}
+
+.btn-small {
+    padding: 0.3rem 0.7rem !important;
+    max-width: 300px;
+    /* font-size: 1rem !important; */
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3rem !important;
+    text-transform: lowercase !important;
+}
+
+.btn-small:active {
+    outline: 5px !important;
+}
+
+.btn-secondary {
+    background-color: #72AEDE !important;
+    outline: 3px solid #72AEDE !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 10px 0 #72AEDE !important;
+}
+
+.btn-shadow {
+}
+
+.btn-secondary:active {
+    outline: 5px solid #72AEDE !important;
+}
+
+.btn-wide {
+    padding: 1rem 4rem !important;
+    min-width: 350px !important;
+}
+
+.btn-outline {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.btn-rounded {
+    /* border-radius: 30px !important; */
+}
+
+.button {
+    user-select: none;
+    /* background-color: #751b59;
+    outline: 3px solid #a6277e; */
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+.button:hover {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #3559f6;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 3px solid #3559f6;
+}
