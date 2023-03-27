@@ -485,33 +485,8 @@
 	@media (max-width: 768px) {
 		.convert-cont {
 			padding: 1.5rem 1rem;
-		}
-		.balance {
-			padding-right: 0;
-		}
-		.input-container {
-			margin-left: 0;
-		}
-		.token-details-cont {
-			letter-spacing: 0.2rem;
-		}
-		.token-name {
-			font-size: 1.1rem;
-		}
-		.token-symbol {
-			font-size: 1.1rem;
-		}
-		.token-logo-cont {
-			width: 4rem;
-		}
-		.action-heading {
-			font-size: 1.1rem;
-		}
-		.input-container input {
-			font-size: 1.5rem;
-		}
-		.explanation {
-			font-size: 0.8rem;
+			height: 100%;
+			width: 100%;
 		}
 	}
 </style>

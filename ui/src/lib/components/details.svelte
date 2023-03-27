@@ -11,9 +11,9 @@
 
 <div class="landing-cont">
 	<div class="detail-heading text-center mt-20">Convert $MARMITE to $YETI</div>
-	<div class="content-row">
+	<!-- <div class="content-row"> -->
 		<ConvertPanel />
-	</div>
+	<!-- </div> -->
 
 	<!-- <div class="content-row justify-center mb-40">
 		<div class="text-content mt-10 w-60">
@@ -126,7 +126,7 @@
 		min-width: none;
 		height: 100%;
 		background-color: rgba(194, 202, 239, 1);
-		height: 100vh;
+		min-height: 100vh;
 		background-image: url('./dab.png');
 		background-size: 300vh;
 		background-position: 0% 100%;
@@ -165,6 +165,21 @@
 
 		.text-content {
 			width: 100%;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.detail-heading {
+			display: none;
+		}
+
+
+		.topic-text {
+			font-size: 0.7rem;
+		}
+
+		.topic-title {
+			font-size: 0.8rem;
 		}
 	}
 </style>
